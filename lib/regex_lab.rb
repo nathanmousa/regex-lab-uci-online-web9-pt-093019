@@ -31,7 +31,7 @@ end
 
 
 def valid_phone_number?(phone)
-  if tex.match(/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/)
+  if tex.match(//)
     return true
   else
     return false
