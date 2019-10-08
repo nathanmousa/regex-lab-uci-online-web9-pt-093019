@@ -10,7 +10,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
 
-  text.scan(/\bun.*ing/i)
+  text.scan(/un\S*ing/i)
 
 end
 
