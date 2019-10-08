@@ -31,7 +31,7 @@ end
 
 
 def valid_phone_number?(phone)
-  if tex.match(//)
+  if phone.match(//)
     return true
   else
     return false
